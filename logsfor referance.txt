@@ -1,0 +1,55 @@
+PS C:\Users\vashi\OneDrive\Desktop\observability> python mainscript.py
+Connected to Kafka
+Connected to Elasticsearch
+ML model loaded successfully
+Prometheus server is running on http://localhost:8000
+{'timestamp': '2025-01-10T07:06:23.591255+00:00', 'ip': '192.168.1.10', 'api_endpoint': 'GET /api/status HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36', 'response_code': 200, 'message': 'Fetched user data successfully.'}
+INFO:     Started server process [2580]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+Connected to Kafka consumer
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:24.594792+00:00', 'ip': '192.168.1.4', 'api_endpoint': 'DELETE /api/resource HTTP/1.1', 'log_level': 'DEBUG', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 200, 'message': 'Connected to database successfully.'}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:25.600102+00:00', 'ip': '192.168.1.2', 'api_endpoint': 'DELETE /api/resource HTTP/1.1', 'log_level': 'DEBUG', 'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1', 'response_code': 200, 'message': 'Fetched user data successfully.'}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:26.609505+00:00', 'ip': '192.168.1.9', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'ERROR', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 404, 'message': 'Memory usage is critically high.'}    
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:27.618320+00:00', 'ip': '192.168.1.3', 'api_endpoint': 'GET /api/users HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 200, 'message': 'Connected to database successfully.'}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:28.621960+00:00', 'ip': '192.168.1.6', 'api_endpoint': 'GET /api/status HTTP/1.1', 'log_level': 'WARN', 'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1', 'response_code': 400, 'message': 'Server CPU temperature is about to reach threshold.'}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:29.635291+00:00', 'ip': '192.168.1.8', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 200, 'message': 'Cache cleared successfully for session ID 23.'}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:30.650200+00:00', 'ip': '192.168.1.6', 'api_endpoint': 'PUT /api/update HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1', 'response_code': 200, 'message': 'User login successful with username: user7. '}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:31.660153+00:00', 'ip': '192.168.1.10', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'DEBUG', 'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1', 'response_code': 200, 'message': 'Cache cleared successfully for session ID 60.'}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:32.669097+00:00', 'ip': '192.168.1.4', 'api_endpoint': 'DELETE /api/resource HTTP/1.1', 'log_level': 'WARN', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 400, 'message': 'API rate limit approaching threshold for IP: B.'}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:33.682232+00:00', 'ip': '192.168.1.5', 'api_endpoint': 'DELETE /api/resource HTTP/1.1', 'log_level': 'DEBUG', 'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1', 'response_code': 200, 'message': 'Fetched user data successfully.'}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:34.690889+00:00', 'ip': '192.168.1.4', 'api_endpoint': 'PUT /api/update HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 200, 'message': 'Connected to database successfully.'}  
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:35.698582+00:00', 'ip': '192.168.1.8', 'api_endpoint': 'GET /api/users HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1', 'response_code': 200, 'message': "Health check passed for service '92'."}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:36.709104+00:00', 'ip': '192.168.1.6', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'WARN', 'user_agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36', 'response_code': 400, 'message': 'Failed login attempt detected for username: userA. '}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:37.720701+00:00', 'ip': '192.168.1.1', 'api_endpoint': 'PUT /api/update HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 200, 'message': 'User login successful with username: user80. '}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+in successful with username: user80. '}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+{'timestamp': '2025-01-10T07:06:38.730880+00:00', 'ip': '192.168.1.10', 'api_endpoint'in successful with username: user80. '}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+in successful with username: user80. '}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+in successful with username: user80. '}
+{'timestamp': '2025-01-10T07:06:38.730880+00:00', 'ip': '192.168.1.10', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 200, 'message': 'Cache cleared su{'timestamp': '2025-01-10T07:06:38.730880+00:00', 'ip': '192.168.1.10', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 200, 'message': 'Cache cleared su{'timestamp': '2025-01-10T07:06:38.730880+00:00', 'ip': '192.168.1.10', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code{'timestamp': '2025-01-10T07:06:38.730880+00:00', 'ip': '192.168.1.10', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 200, 'message': 'Cach{'timestamp': '2025-01-10T07:06:38.730880+00:00', 'ip': '192.168.1.10', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko{'timestamp': '2025-01-10T07:06:38.730880+00:00', 'ip': '192.168.1.10', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'INFO', 'user{'timestamp': '2025-01-10T07:06:38.730880+00:00', 'ip': '192.168.1.10', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Moz{'timestamp': '2025-01-10T07:06:38.730880+00:00', 'ip': '192.168.1.10', 'api_endpoint': 'POST /api/login HTTP/1.1', 'log_level': 'INFO', 'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'response_code': 200, 'message': 'Cache cleared successfully for session ID 4.'}
+Error during anomaly detection: 'dict' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "C:\Users\vashi\OneDrive\Desktop\observability\mainscript.py", line 296, in <module>
+    start_log_generation()
+  File "C:\Users\vashi\OneDrive\Desktop\observability\mainscript.py", line 271, in start_log_generation
+    time.sleep(1)
+KeyboardInterrupt
